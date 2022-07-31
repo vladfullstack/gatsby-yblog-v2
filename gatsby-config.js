@@ -1,18 +1,20 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    //title: `Gatsby Starter Blog`,
+    title: `Vlad FullStack Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Vladimir Yardan`,
+      summary: `Exploration, Coding, Tooling, Building Apps In the Web`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Sharing our code samples, opinions and trials.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `VladFullstack`,
     },
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
